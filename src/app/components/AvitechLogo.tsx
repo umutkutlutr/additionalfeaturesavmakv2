@@ -1,9 +1,9 @@
-import avitechLogoImg from "figma:asset/cf35c0c4273075d0a1b3097f51727caa94952ba9.png";
+import avitechLogo from "../../assets/avitech-logo.png";
 
 export function AvitechLogo({ className = "h-12 w-auto" }: { className?: string }) {
   return (
     <img
-      src={avitechLogoImg}
+      src={avitechLogo}
       alt="Avitech Metal Teknolojileri"
       className={className}
     />
